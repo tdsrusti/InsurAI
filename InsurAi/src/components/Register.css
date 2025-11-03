@@ -70,13 +70,13 @@
 }
 
 .user-type-btn:hover {
-  background-color: #f9fafb;
+  background-color: #f3e8ff; /* light purple hover */
 }
 
 .user-type-btn.active {
-  background-color: #2563eb;
+  background-color: #7e22ce; /* main purple */
   color: white;
-  border-color: #2563eb;
+  border-color: #6b21a8;
 }
 
 /* Form Group */
@@ -109,8 +109,8 @@
 }
 
 .form-input:focus {
-  border-color: #2563eb;
-  box-shadow: 0 0 0 1px #2563eb;
+  border-color: #7e22ce;
+  box-shadow: 0 0 0 1px #7e22ce;
 }
 
 .form-input.error {
@@ -131,7 +131,7 @@
 }
 
 .password-toggle:hover {
-  color: #4b5563;
+  color: #6b21a8;
 }
 
 /* Error Message */
@@ -165,7 +165,7 @@
 }
 
 .terms-link {
-  color: #2563eb;
+  color: #7e22ce;
   background: none;
   border: none;
   cursor: pointer;
@@ -175,14 +175,14 @@
 }
 
 .terms-link:hover {
-  color: #1d4ed8;
+  color: #6b21a8;
 }
 
 /* Register Button */
 .register-btn {
   width: 100%;
   padding: 0.5rem 1rem;
-  background-color: #2563eb;
+  background-color: #7e22ce;
   color: white;
   font-weight: 500;
   border: none;
@@ -192,7 +192,7 @@
 }
 
 .register-btn:hover {
-  background-color: #1d4ed8;
+  background-color: #6b21a8;
 }
 
 /* Login Section */
@@ -204,7 +204,7 @@
 }
 
 .login-link {
-  color: #2563eb;
+  color: #7e22ce;
   font-weight: 500;
   background: none;
   border: none;
@@ -214,6 +214,7 @@
 
 .login-link:hover {
   text-decoration: underline;
+  color: #6b21a8;
 }
 
 /* Footer */
@@ -229,7 +230,7 @@
   .register-card {
     padding: 1.5rem;
   }
-  
+
   .user-type-buttons {
     grid-template-columns: 1fr;
   }
